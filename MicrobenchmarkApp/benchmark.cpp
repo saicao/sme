@@ -461,7 +461,7 @@ void run_micro_benchmark( int i_num_threads,
                (i_qos_class < 3) ? 50000000 : 30000000,
                peak_sve_fmla_streaming_fp32_fp32_fp32 );
 
-  std::cout << "Detemining FP64 SSVE FMLA (Z accumulation) performance..." << std::endl;
+  std::cout << "Determining FP64 SSVE FMLA (Z accumulation) performance..." << std::endl;
   bench_micro( i_num_threads,
                i_qos_class,
                (i_qos_class < 3) ? 50000000 : 30000000,
